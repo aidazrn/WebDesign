@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    direction: rtl;
+}
+
+.header{
+    background-color: slateblue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 2px 4px rgb(51, 50, 50) ;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.title{
+    line-height: 1.2;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30vh 0;
+}
+
+.navbar {
+    background-color: #333;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #444;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+    z-index: 100;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px 15px;
+    color: white;
+    text-align: right;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .cards{
+    background-color: rgb(114, 100, 237);
+    display: flex;
+    padding: 15px;
+    margin: 50px 400px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section{
+    margin: 10px;
+    text-decoration:  none;
+  }
+
+  .section img{
+    border-radius: 100px;
+  }
+
+  .section:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+  .Container{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .content{
+    direction: ltr;
+    flex: 3;
+    padding: 20px;
+    background-color: rgb(188, 188, 188);
+  }
+
+  .sidebar{
+    text-align: center;
+    background-color: rgb(182, 252, 252);
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .sidebar .sb{
+    text-decoration: none;
+  }
+  
+  .sidebar .sb img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+footer{
+  background-color: slateblue ;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
